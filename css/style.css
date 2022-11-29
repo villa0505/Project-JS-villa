@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 219, 244);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(191, 7, 252);
+    padding: 10px;
+}
+.title_header{
+    margin-right: 35%;
+}
+.logo img{
+    border-radius: 50%;
+}
+.title_header{
+    margin-right: -150px;
+}
+.costomer ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+li a{
+    margin: 100px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+a:hover{
+    color: yellow;
+}
+li{
+    list-style: none;
+}
+.button_shearch{
+    display: flex;
+    justify-content: center;  
+    
+}
+
+
+.button_shearch input{
+    width: 40%;
+    padding: 8px;
+    margin-top: 5%;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid rgb(191, 7, 252);;
+}
+#search{
+    background: rgb(191, 7, 252);;
+    border: 1px solid rgb(191, 7, 252);;
+    border-radius: 0 20px 20px 0px;
+    width: 5%;
+    margin-top: 5%;
+}
+.favorit{
+    display: flex;
+    justify-content: center;
+}
+.Card_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.Shirt{
+    background: rgb(216, 127, 245);
+    padding: 13px;
+}
+.Shirt:hover{
+    background: rgb(213, 7, 240);
+}
+.stars i{
+    color: yellow;
+}
+.product-btn{
+    display: flex;
+    justify-content: center;
+}
+.product-btn button:hover{
+    background: rgb(216, 127, 245);
+}
+.product-btn button{
+    padding: 5px;
+    border-radius: 8px;
+    color: rgb(251, 251, 5);
+    background-color: gray;
+}
+footer{
+    background: rgb(191, 7, 252);
+    height: 35vh;
+}
+.footer_h1 h1{
+    display: flex;
+    justify-content: center;
+}
+.footer_h1 p{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i{
+    margin: 10px;
+}
