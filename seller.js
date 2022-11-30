@@ -15,3 +15,4 @@ hide(dialog);
 function buy(){
     show(dialog)
 }
+
